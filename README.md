@@ -16,3 +16,12 @@ It's easy to search "[X] near me", where X is restaurants, hobby shops, or so on
     * Furthermore, it's more actionable to pick your several things up front, and encourages you to follow through. Well-scheduled routines make good habits.
 
 I want to make something to solve these problems. Given an address (or coordinates), I'd like to find several currently-open/accessible places that I can go with my girlfriend next year - be it restaurants, parks, hobby shops, or something else that we haven't thought about, within a radius of her home. Maybe a new iteration next year that has a cool UI, but this time, just something calm and easy to run that spits out a CSV file in time for the first or month week of the year. I think this lightweight deliverable, and the use of something like the Google Places API, make this achievable in the timeframe and allow me to build on the data in the future.
+
+## Requirements & Analysis
+
+The *highest* high-level need is to get out and do new things near home. Off of the top of my head, I can decompose this into a few different needs:
+
+1. Go to places we *haven't visited before*
+1. Go to places nearby a specific focal address
+1. Do *a variety* of things
+1. Do things in *parts of the city that we don't usually go*
